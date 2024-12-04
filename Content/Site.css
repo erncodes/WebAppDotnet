@@ -1,0 +1,58 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&display=swap')
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+html{
+     font-family: "Monserrat", serif;
+ }
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+/* Web Resets */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+    .navbar-brand{
+        font-weight: 700;
+    }
+    .home-content{
+        min-height: 400px;
+    }
+}
+
+/* Responsive: Portrait large mobile screens and up */
+@media screen and (min-width: 576px) {
+    .body-content {
+        padding: 0;
+    }
+}
+
+/* Responsive: Portrait medium mobile screens and up */
+@media screen and (min-width: 425px) {
+    .body-content {
+        padding: 0;
+    }
+}
+
+/* Responsive: Portrait small mobile screens and up */
+@media screen and (min-width: 320px) {
+    .body-content {
+        padding: 0;
+    }
+}
