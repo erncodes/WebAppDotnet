@@ -31,9 +31,6 @@ textarea {
     .navbar-brand{
         font-weight: 700;
     }
-    .home-content{
-        min-height: 400px;
-    }
 }
 
 /* Responsive: Portrait large mobile screens and up */

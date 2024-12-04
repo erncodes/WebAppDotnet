@@ -8,7 +8,7 @@
                 <div class="col-12 text-center mb-3">
                     <h3 class="fw-bold">Welcome Back!</h3>
                 </div>
-                <div class="col-7">
+                <div class="col-md-7 col-sm-12 col-12">
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
@@ -17,13 +17,13 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img width="100" height="450" class="d-block w-100 rounded" text="First slide" src="1.jpg" />
+                                <img class="d-block w-100 rounded" text="First slide" src="1.jpg" />
                             </div>
                             <div class="carousel-item">
-                                <img width="100" height="450" class="d-block w-100 rounded" text="First slide" src="2.jpg" />
+                                <img class="d-block w-100 rounded" text="First slide" src="2.jpg" />
                             </div>
                             <div class="carousel-item">
-                                <img width="100" height="450" class="d-block w-100 rounded" text="First slide" src="3.jpg" />
+                                <img class="d-block w-100 rounded" text="First slide" src="3.jpg" />
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -36,16 +36,20 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-5 d-flex flex-column justify-content-center align-items-center" style="height: 450px">
-                    <h3 class="fw-bold text-warning">Rocco Mamas</h3>
-                    <div class="home-content p-3 text-center">
-                        <p class="mb-3">Here at Rocco Mamas we pride ourselves at catering exquisite dishes for every occassion, 
-                            Enjoy the best meals and debonnaire burgers in town!</p>
+                <div class="col-md-5 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center" style="height: 450px">
+                    <h3 class="fw-bold text-warning mt-5">Rocco Mamas</h3>
+                    <div class="home-content p-3 text-center ">
+                        <p class="mb-3">
+                            Rocco Mama's offers a vibrant dining experience with a diverse menu that includes hearty classics, 
+                            gourmet pizzas, and burgers. <span class="d-none d-md-block d-lg-block d-sm-none">The lively atmosphere creates a family-friendly environment, ensuring guests leave 
+                            satisfied and eager to return.
+                            </span>!
+                        </p>
                         <div class="d-flex flex-column justify-content-center align-content-center text-center py-3">
                             <p class="mb-3">Register or login to get your hands on exclusive and yummy clever deals!</p>
-                            <a class="btn btn-outline-dark mb-3 w-25 mx-auto" href="/Login">Login</a>
+                            <a class="btn btn-outline-dark mb-3 w-25 mx-auto w-auto" href="/Login">Login</a>
                             <small class="text-secondary mb-3">Don't have an account yet?</small>
-                            <a class="btn btn-outline-dark w-25 mx-auto" href="/Register">Register</a>
+                            <a class="btn btn-outline-dark w-25 mx-auto w-auto" href="/Register">Register</a>
                         </div>
                     </div>
                 </div>

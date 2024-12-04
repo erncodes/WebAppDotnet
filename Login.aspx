@@ -5,7 +5,7 @@
     <main>
         <div class="container card col-md-6 col-sm-10 col-11">
             <div class="row">
-                <div class="bg-dark mb-3 col-12">
+                <div class="bg-dark mb-3 col-12 p-2">
                     <h4 class="mb-3 text-center text-white">Login</h4>
                 </div>
                 <div class="col-12 pb-3">

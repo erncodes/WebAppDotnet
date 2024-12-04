@@ -4,7 +4,7 @@
 
     <main>
         <div class="container">
-            <div class="bg-dark mt-1 mb-3 p-4">
+            <div class="bg-dark mt-1 mb-3 p-2">
                 <h4 class="mb-3 text-center text-white">Register</h4>
             </div>
             <div class="row">
